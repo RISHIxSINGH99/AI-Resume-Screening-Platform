@@ -1,0 +1,40 @@
+# Python virtual environment & packages
+.venv/
+venv/
+ENV/
+env/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Secrets & Environment configuration
+.env
+.env.*
+.streamlit/secrets.toml
+
+# System files
+.DS_Store
+Thumbs.db
+
+# User & IDE config
+.idea/
+.vscode/
+*.swp
+
+# Nested subdirectories / scratch
+resumefinder/
+*.csv
+*.log
+resume_screening.db
+*.sqlite
+*.sqlite3
+*.db
+instance/
+
+# Node & Frontend build
+node_modules/
+dist/
+
+# Test & Cache
+.pytest_cache/
